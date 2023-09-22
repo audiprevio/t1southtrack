@@ -1,0 +1,27 @@
+// const PenguinComponentTwo = () => {
+//   const [data, setData] = useState<Penguin[] | null>(null);
+
+//   const getPenguinList = () => {
+    
+//   }
+
+//   useEffect(() => {
+//     fetch('https://penguintrackerapi.fly.dev/admin/penguins')
+//       .then(response => response.json())
+//       .then((data: Penguin[]) => setData(data));
+//   }, []);
+
+//   return (
+//     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around'}}>
+//       {data ? (
+//         data.map((penguin, index) => (
+//           <PenguinCard key={index} penguin={penguin} />
+//         ))
+//       ) : (
+//         'Loading...'
+//       )}
+//     </div>
+//   );
+// };
+
+// export default PenguinComponentTwo;
