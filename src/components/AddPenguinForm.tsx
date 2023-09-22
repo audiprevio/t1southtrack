@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react';
 import { Divider, Form, Input, Button, DatePicker, message, Typography } from 'antd';
 

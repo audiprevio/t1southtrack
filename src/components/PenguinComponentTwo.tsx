@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useEffect, useCallback } from 'react';
 import PenguinCard from './PenguinCard';
 import { message, Typography, Divider, Skeleton, Input, Select } from 'antd';

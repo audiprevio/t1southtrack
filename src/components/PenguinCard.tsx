@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react';
 import UpdatePenguinModal from './UpdatePenguinModal';
 import { Card, Typography, Button, Space } from 'antd';

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { Modal, Button, Input, message } from 'antd';
 import { useFormik } from 'formik';

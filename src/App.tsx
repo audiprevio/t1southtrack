@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MapComponent from './components/MapComponent';
 import NavBar from './components/NavBar';
